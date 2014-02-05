@@ -10,3 +10,9 @@
 [submodule "util"]
 	path = util
 	url = https://github.com/dojo/util.git
+[submodule "dojo-core"]
+	path = dojo-core
+	url = https://github.com/mrova/dojo-core.git
+[submodule "dojo-crm"]
+	path = dojo-crm
+	url = https://github.com/mrova/dojo-crm.git
