@@ -1,0 +1,42 @@
+{
+	"name": "mrova/dojo-env",
+	"description": "Windows Environment for Dojo builds",
+	"license": "GPL2",
+	"keywords": [
+		"dojo",
+		"builds"
+	],
+	"homepage": "http://www.simplesoft.pl/",
+	"authors": [
+		{
+			"name": "Michal Mrowiec",
+			"email": "michal.mrowiec@simplesoft.pl"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git://github.com/dojo/dojo.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git://github.com/dojo/dijit.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git://github.com/dojo/dojox.git"
+		}
+		{
+			"type": "vcs",
+			"url": "https://github.com/dojo/util.git"
+		}
+	],
+	"require": {
+		"dojo/dojo": "dev-master",
+		"dojo/dijit": "dev-master",
+		"dojo/dojox": "dev-master",
+		"dojo/util": "dev-master"
+	},
+	"require-dev": {
+	}
+}
